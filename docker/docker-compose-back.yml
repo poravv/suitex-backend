@@ -1,0 +1,13 @@
+services:
+  # Backend
+  pohapp-back:
+    build:
+    image: suitex-back-image
+    ports:
+      - "3003:3000"
+    environment:
+      USERMAIL: marketing@suitex.com.py
+      PASSWORD: Marketing2024!
+      HOST: mail.suitex.com.py
+      PORT: 465
+    container_name: suitex-back-container
