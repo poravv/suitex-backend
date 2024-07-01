@@ -1,7 +1,6 @@
 services:
   # Backend
   pohapp-back:
-    build:
     image: suitex-back-image
     ports:
       - "3003:3000"
