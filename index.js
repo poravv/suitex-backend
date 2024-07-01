@@ -1,6 +1,6 @@
 const express = require("express");
 const emailHelper = require("./helpers/emailHelper");
-
+const cors = require('cors');
 const app = express();
 
 // Middleware
