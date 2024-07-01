@@ -1,5 +1,6 @@
 services:
   # Backend
+  build: ../
   pohapp-back:
     image: suitex-back-image
     ports:
