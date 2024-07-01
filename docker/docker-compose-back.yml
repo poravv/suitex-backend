@@ -1,6 +1,7 @@
 services:
   # Backend
   build: ../
+  dockerfile: Dockerfile
   pohapp-back:
     image: suitex-back-image
     ports:
