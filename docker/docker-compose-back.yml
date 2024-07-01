@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     image: suitex-back-image
     ports:
-      - "3000:3000"
+      - "3003:3000"
     environment:
       USERMAIL: marketing@suitex.com.py
       PASSWORD: Marketing2024!
